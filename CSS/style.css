@@ -1,0 +1,424 @@
+    * {
+        padding: 0px;
+        margin: auto;
+    }
+    
+    .wrapper {
+        width: 1500px;
+        border: 1px solid black;      
+    }
+
+    /*header*/
+    header {
+        height: 170px;
+        background-color: rgb(34, 34, 34);
+        position : relative; 
+        color : white;
+    }
+    header img {
+        position : absolute; 
+        top : 5px;
+        left : 20px;
+    }
+   
+    header p {
+        position : absolute;
+        bottom : 20px;
+        left : 80px;
+    }
+       
+    /*menu cha*/
+    .menu {
+        position : absolute;
+        bottom : 0px;
+        right: 40px;
+        display: flex;
+        list-style: none;
+        background-color: rgb(241, 94, 36);
+    }
+       
+    .menu a{
+       color: white;
+       display: block;
+       padding: 10px 20px;
+       text-decoration: none;
+       font-weight: bold;
+       margin-left: 20px;
+    }
+
+    /*menu con*/
+    .submenu
+    {
+        display : none;
+    }
+    .menu li:hover .submenu
+    {
+        list-style: none;
+        display: block;
+        position : absolute;
+        padding-right: 20px;
+        background-color: rgb(241, 94, 36);
+    }
+    .menu a:hover
+    {
+        color: rgb(34, 34, 34);
+        text-decoration: none;
+    }
+    .arrow_down {
+        width: 0;
+        height: 0;
+        border-top: 7px solid;
+        border-left: 7px solid transparent;
+        border-right: 7px solid transparent;
+        border-bottom: 7px solid transparent;
+    }
+    .arrow {
+        font-size: 0px;
+        margin-left: 5px;
+    } 
+   
+    #bt1{
+        border-radius: 5px;
+        background-color: rgb(241, 94, 36);
+        color: white;
+        font-weight: bold;
+        position: absolute;
+        top: 50px;
+        right: 0px;
+        width: 100px;
+    }
+    #bt2{
+        border-radius: 5px;
+        background-color: rgb(241, 94, 36);
+        color: white;
+        font-weight: bold;
+        position: absolute;
+        top: 80px;
+        right: 0px;
+        width: 100px;
+    }
+
+    .form1{
+        position: absolute;
+        top: 15px;
+        left: 420px; 
+    }
+    #search{
+        height: 36px;
+        width: 460px;
+        border-radius: 10px 0 0 10px;
+    }
+    .info .fas{
+        position: absolute;
+        top: 15px;
+        right: 600px;  
+        background-color: rgb(241, 94, 36);
+        padding: 10px;
+        border-radius: 0 10px 10px 0;
+    }
+    
+    .video{
+         margin-top: 20px;
+    }
+    .content{
+        width: 100%;
+    }
+    .gioithieu{
+        width:100%;
+        height: 427px;
+        position: relative;
+        background-color: #e3e3e3;
+    }
+    .gioithieu section{
+        float: left;
+        width: 60%;
+        height: 430px;
+    }
+    .gioithieu aside{
+        float: left;
+        width: 40%;
+        height: 430px; 
+
+    }
+    .dangki{
+        width: 100%;
+        height: 500px;
+        background-color: #e3e3e3;
+        
+        border-radius: 40px 40px 0px 0px;
+    }
+    .e{
+        margin-top: 10px;
+        border-width: 4px 30px;
+        border-style: groove ridge dashed groove;
+        border-radius: 100px 100px 0 0 ;
+        width: 50%;
+    }
+
+    .form-horizontal input{
+        width: 350px;
+    }
+    
+    .container {
+        width: 665px;
+        height: 380px;
+    }
+    .main {
+        margin-top: 22px;
+        height: 321px;
+        width: 570px;
+        position: relative;
+    }
+    .control {
+        position: absolute;
+        top: 50%;
+        font-size: 40px;
+        color: white;
+        transform: translateY(-50%);
+    }
+    .prev {
+        left: 10px;
+    }
+    .next {
+        right: 10px;
+    }
+    .dau{
+        background-image: url(../IMG/banner.PNG);
+        height: 500px;
+        width: 100%;
+    }
+    .active {
+        background: black;
+    }
+    .i{
+        border-width: 0px 10px;
+        border-style: double;
+        border-radius: 100px;
+        width: 17%;
+    }
+    aside h2{
+        text-align: center;
+        text-shadow:2px 3px 4px #85C226;
+    }
+    .list-product {
+        display: flex;
+        padding-left: 0;
+        margin-left: 0px;
+    }
+    
+    .hot-deal {
+        margin-bottom: 100px;
+        border: 2px solid #e3e3e3;
+        padding: 3px;
+        background-color: whitesmoke;
+    }
+    
+    .list-product li:first-child {
+        margin-left: 0;
+    }
+    
+    .list-product li {
+        width: 290px;
+        position: relative;
+        overflow: hidden;
+        margin-left: 15px;
+    }
+    
+    .right {
+        margin-top: -30px;
+        width: 300px;
+    }
+
+    .tieuDe {
+        float: left;
+        width: 175px;
+        margin-bottom: 30px;
+        background-color: rgb(294, 94, 36);
+    }
+    
+    .tieuDe h4 {
+        text-align: center;
+        font-weight: bold;
+        color: white;
+    }
+
+    .line-cam1 {
+        width: 350px;
+        border-bottom: 5px solid rgb(294, 94, 36);
+    }
+
+    .right img {
+        width: 300px;
+        margin-bottom: 30px;
+        margin-left: 30px;
+        border: 1px solid black;
+    }
+
+    .r1 {
+        position: relative;
+        width: 300px;
+        margin-top: -1220px;
+        margin-right: 70px;
+        float: right;
+    }
+
+    .DichVu {
+        margin-left: 30px;
+    }
+
+    .DichVu iframe {
+        margin-bottom: 30px;
+    }
+
+    .r2 {
+        position: relative;
+        width: 300px;
+        height: 800px;
+        margin-top: 20px;
+        margin-left: 134px;
+        border: 1px solid black;
+    }
+
+    .r3 {
+        position: relative;
+        width: 300px;
+        height: 500px;
+        top: -200px;
+    }
+    
+    .box-head p {
+        padding: 8px 16px;
+        background-color: rgb(241, 94, 36);
+        color: white;
+        width: 180px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+    .box-head {
+        height: 40px;
+        border-bottom: 2px solid rgb(241, 94, 36);
+        margin-bottom: 20px;
+    }
+    
+    .box-body {
+        margin-bottom: 100px;
+    }
+
+    footer {
+        background-color:  rgb(51, 51, 51);
+        width: 100%;
+        height: 250px;
+    }
+    footer .footer-main {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        width: 100%;
+    }
+    footer .footer-main__map {
+        width: 31%;
+        height: 400px;
+        float: left;
+    }
+
+    footer .footer-list {
+        width: 36%;
+        height:400px ;
+
+    }
+
+    footer .footer-address {
+        list-style-type: none;
+    }
+
+    footer .footer-icon {
+        width: 32px;
+        color: white;
+    }
+    footer .footer-address__items {
+        margin-bottom: 25px;
+    }
+    footer .footer-address__items-none {
+        color: white;
+    }
+
+    footer .footer-address__items-link {
+        text-decoration: none;
+        color: white;
+    }
+
+    footer .footer-address__items-link:hover {
+        color: #e7b45a;
+        transition: 0.4s;
+    }
+    footer .footer-info__icon {
+        margin-top: 10px;
+        margin-right: 19px;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    footer .footer-info__icon:hover {
+        color: var(--yellow);
+    }
+
+    footer .ftbottom {
+        display: flex;
+        max-width: 1200px;
+        justify-content: space-between;
+        color: black;
+        margin: auto;
+        padding: 40px 0;
+    }
+
+    footer .ftbottom-main {
+        color: white;
+        font-size: 15px;
+    }
+
+    footer .top-link {
+        text-decoration: none;
+        color:white;
+    }
+
+    footer .top-link:hover {
+        color: var(--yellow);
+    }
+
+    footer .top-icon {
+        background: var(--yellow);
+        padding: 4px 6px;
+        font-size: 14px;
+        border-radius: 50%;
+        margin: 0 8px;
+        color: white;
+    }
+    .modal-footer a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .thongbaoct{
+        margin-top: 20px;
+    }
+
+    #tintuc{
+        
+        width: 100%;
+        height: 1100px;
+    }
+    #tintuc .row{
+       margin-top: 5px;
+       padding-top: 5px;
+    }
+    #tintuc img{
+       width: 250px;
+       height: 173px;
+     }
+    #tintuc .row:first-child{
+        margin-top: 50px;
+ 
+     }
+

@@ -1,0 +1,180 @@
+.section-left {
+    width: 55%;
+    height: 300px;
+    float: left;    
+}
+
+.section-left h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.line {
+    width: 750px;
+    border-bottom: 1px solid gray;
+}
+
+.social-media {
+    width: 30%;
+    float: right;
+}
+
+.TieuDePhu {
+    margin-top: 30px;
+}
+
+.TieuDePhu h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: justify;
+    margin-left: 10px;
+}
+
+.section-right {
+    width: 40%;
+    height: 300px;
+    float: right;
+}
+
+.NoiDung {
+    
+}
+
+.NoiDung p {
+    font-size: 12;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    text-align: justify;
+}
+
+.ChuyenMuc {
+    position: relative;
+    height: 75px;
+    top: 10px;
+    left: 10px;
+}
+
+.ChuyenMuc img {
+    position: absolute;
+}
+
+.ChuyenMuc h4 {
+    font-size: 12;
+    color: rgb(294, 94, 36);
+    position: absolute;
+    left: 60px;
+}
+
+.ChuyenMuc a {
+    position: absolute;
+}
+
+.ChiaSe {
+    position: relative;
+    width: 350px;
+    height: 60px;
+    border: 1px solid black;
+    margin-left: 20px;
+}
+
+.ChiaSe img {
+    position: absolute;
+    border-radius: 1px;
+}
+
+.ChiaSe p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+
+.ChiaSe img:hover {
+    transform: scale(1.2);
+}
+
+.GoiY h4 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.GoiY-title {
+    border-bottom: 5px solid black;
+    margin-bottom: 3px;
+}
+
+.line-cam {
+    width: 450px;
+    border-bottom: 5px solid rgb(294, 94, 36);
+}
+
+.tieuDe {
+    float: left;
+    width: 175px;
+    margin-top: 25px;
+    margin-left: 30px;
+    background-color: rgb(294, 94, 36);
+}
+
+.tieuDe h4 {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.tieuDe h5 {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.img-NhaTaiTro {
+    margin-top: 100px;
+    width: 300px;
+}
+
+.img-NhaTaiTro img {
+    width: 300px;
+    margin-bottom: 30px;
+    border: 1px solid black;
+}
+
+.NoiBat {
+    position: relative;
+    width: 575px;
+    
+    margin-left: 20px;
+}
+
+.NoiBat h5 {
+    position: absolute;
+    top: 0px;
+    margin-left: 270px;
+    text-align: justify;
+}
+
+.NoiBat p {
+    position: absolute;
+    top: 100px;
+    margin-left: 270px;
+}
+
+.NoiBat a {
+    color: black;
+}
+
+.NoiBat a:hover {
+    color: rgb(294, 94, 36);
+}
+
+.line-den {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 500px;
+    border-bottom: 1px solid gray;
+}
